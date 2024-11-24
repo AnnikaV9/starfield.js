@@ -1,0 +1,21 @@
+*.gitattributes  text
+*.gitignore      text
+*.editorconfig   text
+
+*.parcelrc       text
+*.json           text
+*.lock           text
+
+*.md             text diff=markdown
+LICENSE          text
+
+*.js             text diff=javascript
+*.html           text diff=html
+*.css            text diff=css
+
+*.woff2          binary
+*.jpg            binary
+*.png            binary
+*.ico            binary
+
+*.svg            text -diff
